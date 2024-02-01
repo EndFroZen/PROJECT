@@ -1,0 +1,25 @@
+header {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 24px;
+  }
+  
+  nav .container1 {
+    background-color: #ffffff;
+  }
+  
+  nav .sidebar_item {
+    border: 1px solid #000000;
+    padding: 10px;
+  }
+  
+  nav .container2 {
+    background-color: #ffffff;
+  }
+  
+  input {
+    border: 1px solid #000000;
+    padding: 10px;
+  }
+  
