@@ -1,28 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="admin.css">
+    <title>Admin</title>
 </head>
+
 <body>
-    <header><h2>Admin</h2></header>
-    <nav>
-        <div class="container1">
-          <select name="" class="sidebar_item" id="">
-            <option value="non1">เลือกร้านค้า</option>
-            <option value="1"> ร้านที่ 1</option>
-          </select>
+    <div class="wrapper">
+        <!----------------------------- Form box ----------------------------------->
+        <div class="form-box">
+            <!------------------- Form Admin-------------------------->
+            <div class="select-container">
+                <div class="top">
+                    <header>Admin</header>
+                </div>
+                <div class="select-box">
+                    <select name="" class="select-field">
+                        <option value="non1">เลือกร้านค้า</option>
+                        <option value="1">ร้านที่ 1</option>
+                    </select>
+                    <i class='bx bx-store'></i>
+                </div>
+                <div class="select-box">
+                    <select name="" class="select-field">
+                        <option value="non2">เลือกประเภทสินค้า</option>
+                        <option value="1">ประเภทที่ 1</option>
+                    </select>
+                    <i class='bx bx-purchase-tag-alt'></i>
+                </div>
+                <div class="select-box">
+                    <select name="" class="select-field">
+                        <option value="non3">เลือกรายการสินค้า</option>
+                        <option value="1">รายการที่ 1</option>
+                    </select>
+                    <i class='bx bx-basket'></i>
+                </div>
+
+                <div class="input-box">
+                    <input type="text" value="" class="input-field" placeholder="kg">
+                    <i class='bx bx-cart-add'></i>
+                    <input type="text" value="" class="input-field" placeholder="price/kg">
+                    <i class='bx bx-receipt'></i>
+                </div>
+                <div class="submit-box">
+                    <input type="submit" class="submit" value="Submit">
+                </div>
+            </div>
+
+
         </div>
-        <div class="container2">
-          <input type="text" value="" placeholder="กิโลกรัม">
-          <input type="text" value="" placeholder="ราคา/ กิโลกรัม">
-        </div>
-        <div class="container1">
-          <input type="button" value="submit">
-        </div>
-      </nav>
-      
+    </div>
+
 </body>
+
 </html>
